@@ -18,16 +18,16 @@ Implement a simple [TODO app](http://todomvc.com/examples/vanillajs/) working as
 - [x] Implement `TodoItem` component with ability to toggle the `completed` status using a checkbox.
     - move a `li` tag inside the `TodoItem`;
     - add class `completed` if todo is completed;
-- [ ] Add the ability to toggle the completed status of all the todos with the `toggleAll` checkbox.
+- [x] Add the ability to toggle the completed status of all the todos with the `toggleAll` checkbox.
     - `toggleAll` checkbox is active only if all the todos are completed;
     - if you click the checkbox all the items should be marked as `completed`/`not completed` depending on `toggleAll` checked;
-- [ ] Create `TodosFilter` component to switch between `All`/`Active`/`Completed` todos (add it to the `App`)
+- [x] Create `TodosFilter` component to switch between `All`/`Active`/`Completed` todos (add it to the `App`)
     - add the `Status` enum with the required values;
     - href should be `#/`, `#/active` or `#/completed`)
-- [ ] Add ability to remove a todo using the `destroy` button (`X`).
-- [ ] Add ability to clear completed todos - remove all completed items from the list. The button should contain text `Clear completed` in it.
+- [x] Add ability to remove a todo using the `destroy` button (`X`).
+- [x] Add ability to clear completed todos - remove all completed items from the list. The button should contain text `Clear completed` in it.
     - It should be visible if there is at least 1 completed item in the list.
-- [ ] Hide everything except the input to add new todo if there are no todos. But not if todos are just filtered out.
+- [x] Hide everything except the input to add new todo if there are no todos. But not if todos are just filtered out.
 - [ ] Make inline editing for the TODO item
     - double click on the TODO title makes it editable (just add a class `editing` to a `li`)
     - DON'T add `htmlFor` to the label!!!
